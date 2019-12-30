@@ -23,31 +23,41 @@
 
 
   <div class="container">
-    <h1>Order Form</h1>
+    <h1>留言板 I'll FeedBack</h1>
     <hr/>
     <div class="row">
       <div class="col-md-6">
         <form method="post" name="contactForm">
           <div class="form-group">
-            <label for="name">Name</label>
+            <label for="name">暱稱</label>
             <input type="text" class="form-control" id="name" required placeholder="Enter name">
           </div>
           <div class="form-group">
-            <label for="email">Email</label>
+            <label for="email">你的Email</label>
             <input type="email" class="form-control" id="email" required placeholder="Enter Email">
           </div>
+		  <div class="form-group">
+            <label for="sex">性別</label>
+            <input type="sex" class="form-control" id="sex" required placeholder="Enter man or male">
+          </div>
+		  
           <h3>Location</h3>
           <div class="form-group">
-            <label for="city">City</label>
+            <label for="city">居住地區</label>
             <input type="text" class="form-control" id="city" placeholder="Enter City">
           </div>
           <div class="form-group">
-            <label for="email">State</label>
+            <label for="email">居住鄉鎮</label>
             <input type="text" class="form-control" id="state" placeholder="Enter State">
           </div>
           <div class="form-group">
-            <label for="zip">Zip</label>
-            <input type="text" class="form-control" id="zip" placeholder="Enter Zip Code">
+            <label for="zip">郵寄地址</label>
+            <input type="text" class="form-control" id="zip" placeholder="Enter address">
+          </div>
+		  
+          <div class="form-group">
+            <label for="請留言">請留言</label>
+            <input type="text" class="form-control" id="請留言" placeholder="請輸入留言">
           </div>
 		    <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6LduJ8kUAAAAAGSeR0ma3zOKBkraMKBcVjJVcK4-"></div>
    
